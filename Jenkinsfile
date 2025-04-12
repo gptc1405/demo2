@@ -9,13 +9,13 @@ pipeline{
         }
         stage('compile java'){
             steps{
-                bat ' java hello.java'
+                bat 'java hello.java'
             }
 
         }
         stage('run java'){
             steps{
-                bat 'java hello'
+                bat 'java hello.java'
             }
         }
     }
