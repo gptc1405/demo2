@@ -20,4 +20,11 @@ pipeline{
         }
     }
 }
-          
+post{
+    sucess{
+        echo "bulid and run sucessfully"
+        }
+        faliure{
+            echo "bulid failed"
+        }
+}         
