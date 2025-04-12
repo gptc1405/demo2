@@ -16,10 +16,6 @@ pipeline{
         stage('run java'){
             steps{
                 bat 'java hello.java'
-            }
-        }
-    }
-}
 post{
     sucess{
         echo "bulid and run sucessfully"
@@ -28,3 +24,7 @@ post{
             echo "bulid failed"
         }
 }         
+            }
+        }
+    }
+}
