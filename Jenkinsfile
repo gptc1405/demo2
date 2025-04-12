@@ -21,9 +21,9 @@ post{
         echo "bulid and run sucessfully"
         }
         faliure{
-            echo "bulid failed"
+            echo "fai;ed"
         }
-}         
+}
             }
         }
     }
